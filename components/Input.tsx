@@ -15,7 +15,6 @@ const Input = ({ onchange, value, ref }: InputProps) => {
         onChange={onchange}
         value={value}
         onFocus={(e) => {
-          console.log("input focused");
           e.stopPropagation();
         }}
       />

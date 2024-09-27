@@ -46,10 +46,7 @@ export default defineContentScript({
     if (targetDiv) {
       await createAndMountUI(targetDiv);
       targetDiv.style.position = "relative";
-    } else {
-      console.log("Target div not found initially, setting up observer");
     }
-
     // Set up a MutationObserver to watch for changes in the DOM
     const observer = new MutationObserver((mutations) => {
       for (let mutation of mutations) {

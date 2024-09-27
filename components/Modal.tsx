@@ -24,14 +24,12 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      console.log(event.target);
       if (
         modalRef.current &&
         !modalRef.current.contains(event.target as Node) &&
         !event.composedPath().includes(modalRef.current) &&
         !(event.target as HTMLElement).closest("input")
       ) {
-        console.log("Clicked outside modal");
         onClose();
       }
     };
@@ -42,7 +40,6 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
     }
 
     return () => {
-      console.log("Modal cleanup");
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [isOpen, onClose]);
