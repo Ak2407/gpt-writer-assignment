@@ -16,7 +16,7 @@ function App() {
 
         <a
           className="text-slate-500 underline text-lg"
-          href="https://github.com/Ak2407/gpt-writer-assignment"
+          href="https://github.com/user-attachments/assets/4da11951-47c2-449c-877b-5cf321e8a586"
           target="_blank"
         >
           video for demo
