@@ -1,3 +1,5 @@
-# WXT + React
+<!-- Add the video -->
 
-This template should help get you started developing with React in WXT.
+# Demo for the assignment
+
+[![Watch the video]](./assets/showcase.mov)
