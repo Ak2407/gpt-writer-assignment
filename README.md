@@ -2,4 +2,4 @@
 
 # Demo for the assignment
 
-[![Watch the video]](./assets/showcase.mov)
+[![Watch the video]](./assets/demo-video.mov)
